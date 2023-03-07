@@ -13,6 +13,6 @@ public class Calculator {
 
 	// Subtraction Method
 	public void sub() {
-		System.out.println("5-3 =" + (5 - 3));
+		System.out.println("Subtraction : 5-3 =" + (5 - 3));
 	}
 }
