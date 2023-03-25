@@ -1,6 +1,7 @@
 package week2.day2;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -44,6 +45,9 @@ public class Button {
 		System.out.println("Size of the button: " + size.getSize());
 		System.out.println("Width of the button: " + size.getSize().getWidth());
 		System.out.println("Height of the button: "+ size.getSize().getHeight());
+		// print How many rounded buttons are there
+		List<WebElement> roundedButon = driver.findElements(By.xpath("//button[contains(@class,'rounded-button')] "));
+		System.out.println("There are " + roundedButon.size()+ " buttons");
 	}
 
 	

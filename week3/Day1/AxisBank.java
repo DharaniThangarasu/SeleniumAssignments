@@ -1,6 +1,7 @@
 package week3.Day1;
 
 public class AxisBank extends BankInfo {
+	@Override
 	// Print the deposit amount
 	public void deposit() {
 		System.out.println("Deposit amount : 125000");

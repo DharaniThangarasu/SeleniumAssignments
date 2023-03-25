@@ -11,6 +11,6 @@ public class BankInfo {
 	}
 	//Print the deposit amount
 	public void deposit() {
-		System.out.println("Deposit amount : 125000");
+		System.out.println("Deposit amount : 12000");
 	}
 }

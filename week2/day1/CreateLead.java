@@ -27,7 +27,7 @@ public class CreateLead {
 		 * 15. Click on Create Button 
 		 * 16. Get the Title of Resulting Page.
 		 */
-		// Launch URL "http://leaftaps.com/opentaps/control/login"
+		// Launch URL "http://leaftaps.com/opentaps/control/main/"
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("--remote-allow-origins=*");
 		ChromeDriver driver = new ChromeDriver(option);
